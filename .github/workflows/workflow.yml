@@ -1,0 +1,16 @@
+name: Actions Workflow
+
+on: 
+  pull_request:
+    types:
+      - opened
+    branches:
+      - 'feature/**'
+
+jobs:
+  run-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "Hellow world"
+
