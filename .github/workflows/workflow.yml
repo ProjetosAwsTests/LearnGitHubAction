@@ -5,7 +5,7 @@ on:
     types:
       - opened
     branches:
-      - 'feature/**'
+      - 'develop'
 
 jobs:
   run-actions:
